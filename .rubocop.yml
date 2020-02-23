@@ -1,0 +1,8 @@
+inherit_from:
+  - https://raw.githubusercontent.com/bkuhlmann/code_quality/4.3.0/configurations/rubocop/ruby.yml
+  - https://raw.githubusercontent.com/bkuhlmann/code_quality/4.3.0/configurations/rubocop/rake.yml
+  - https://raw.githubusercontent.com/bkuhlmann/code_quality/4.3.0/configurations/rubocop/performance.yml
+  - https://raw.githubusercontent.com/bkuhlmann/code_quality/4.3.0/configurations/rubocop/rspec.yml
+
+Lint/Void:
+  CheckForMethodsWithNoSideEffects: false

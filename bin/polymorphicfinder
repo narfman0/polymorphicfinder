@@ -1,0 +1,9 @@
+#! /usr/bin/env ruby
+# frozen_string_literal: true
+
+require "polymorphicfinder"
+require "polymorphicfinder/cli"
+require "polymorphicfinder/identity"
+
+Process.setproctitle Polymorphicfinder::Identity.version_label
+Polymorphicfinder::CLI.start
