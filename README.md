@@ -6,7 +6,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/polymorphicfinder.svg)](http://badge.fury.io/rb/polymorphicfinder)
 
-<!-- Tocer[start]: Auto-generated, don't remove. -->
+Identify and report polymorphic tables in rails projects
 
 ## Table of Contents
 
@@ -23,12 +23,6 @@
   - [History](#history)
   - [Credits](#credits)
 
-<!-- Tocer[finish]: Auto-generated, don't remove. -->
-
-## Features
-
-## Screencasts
-
 ## Requirements
 
 1. [Ruby 2.7.0](https://www.ruby-lang.org)
@@ -42,11 +36,22 @@ To install, run:
 
 ## Usage
 
+    polymorphicfinder ModelName
+
+This will return an array identifying polymorphic associations.
+Note: add other checks in your own code, e.g. audits or paranoia
+specific logic
+
 ## Tests
 
 To test, run:
 
     bundle exec rake
+
+## TODO
+
+* unit tests
+* publish gem
 
 ## Versioning
 

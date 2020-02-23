@@ -44,6 +44,11 @@ module Polymorphicfinder
       end
     end
 
+    desc "find MODEL", "Run find on model"
+    def find(model)
+      PolymorphicFinder.find(model)
+    end
+
     desc "-v, [--version]", "Show gem version."
     map %w[-v --version] => :version
     def version

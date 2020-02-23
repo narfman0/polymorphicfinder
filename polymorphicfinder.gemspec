@@ -14,13 +14,11 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
 
   spec.metadata = {
-    "source_code_uri" => "",
-    "changelog_uri" => "/blob/master/CHANGES.md",
-    "bug_tracker_uri" => "/issues"
+    "source_code_uri" => "https://github.com/narfman0/polymorphicfinder"
   }
 
-
   spec.required_ruby_version = "~> 2.7"
+  spec.add_dependency "rails"
   spec.add_dependency "runcom", "~> 6.0"
   spec.add_dependency "thor", "~> 0.20"
   spec.add_development_dependency "bundler-audit", "~> 0.6"
